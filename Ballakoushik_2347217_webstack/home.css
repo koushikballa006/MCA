@@ -1,0 +1,77 @@
+.custom-shape-divider-bottom-1691064527 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1691064527 svg {
+    position: relative;
+    display: block;
+    width: calc(138% + 1.3px);
+    height: 86px;
+}
+
+.custom-shape-divider-bottom-1691064527 .shape-fill {
+    fill: #FFFFFF;
+}
+.hero-image{
+    background-image: linear-gradient(to bottom, #B19CD9, #7B68EE);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.softwaredev
+{
+display: flex;
+justify-content: right;
+padding-top: 100px;
+}
+.hero-text
+{
+align-content: center;
+position: absolute;
+top: 50%;
+left: 30%;
+transform: translate(-50%,-50%);
+}
+/* Styling for the footer section */
+footer {
+    background-image: linear-gradient(to bottom, #B19CD9, #7B68EE);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for the footer content */
+  .footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for the profile name */
+  .profile-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Styling for the contact information */
+  .contact-info {
+    margin-top: 10px;
+  }
+  
+  /* Styling for the email and phone number */
+  .email, .phone {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .carousel-caption
+  {
+    align-content: center;
+position: absolute;
+top: 45%;
+left: 64%;
+transform: translate(-50%,-50%);
+  }
+ 

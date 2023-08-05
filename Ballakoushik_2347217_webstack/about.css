@@ -1,0 +1,113 @@
+/* Existing code */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .parallax-sec {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .parallax-sec {
+    background: url('java,c,py.mp4') center/cover fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  
+  .sec2 {
+    
+    background: url('html,css.mp4') center/cover fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+  }
+  
+  .sec3 {
+    background: url('hobbies.mp4') center/cover fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  
+  .sec1 h1 {
+    font-size: 3rem;
+    align-content: right;
+position: absolute;
+top: 40%;
+right: 0%;
+transform: translate(-30%,-30%);
+color: #7B68EE;
+  }
+  .sec1 p
+  {
+    font-size: 1.2rem;
+    color: black;
+    font-size: 40px;
+    align-content: right;
+position: absolute;
+top: 50%;
+right: 20%;
+transform: translate(-30%,-30%);
+    }
+  
+  .sec2 h2{
+    font-size: 3rem;
+    align-content: right;
+    color: chocolate;
+    position: absolute;
+    right: 20%;
+  }
+  .sec3 h2 {
+    font-size: 2.5rem;
+    font-size: 3rem;
+    align-content: right;
+    color: #7B68EE;
+    position: absolute;
+    left: 0%;
+    
+  }
+  
+  .sec2 p{
+    font-size: 1.2rem;
+    color: black;
+    font-size: 40px;
+    align-content: right;
+    position: absolute;
+    top: 155%;
+    right: 20%;
+  }
+  .sec3 p {
+    font-size: 1.2rem;
+    font-size: 1.2rem;
+    color: black;
+    font-size: 40px;
+    align-content: right;
+    position: absolute;
+    top: 255%;
+    left: 0%;
+    
+  }
+  .heading-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  /* Reduce the background image size for .sec1, .sec2, .sec3 */
+  .sec1 {
+    background-size: 30%;
+  }
+  
+  .sec2 {
+    background-size: 30%;
+  }
+  
+  .sec3 {
+    background-size: 40%;
+  }
+  
