@@ -1,0 +1,22 @@
+/* Set background image */
+.geo {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the map container */
+#myMap {
+    width: 600px;
+    height: 400px;
+    background-color: rgba(182, 91, 64, 0.7);
+    border-radius: 30px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
