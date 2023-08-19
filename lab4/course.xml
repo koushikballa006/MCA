@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="lab4/course.dtd">
+
+  <course id="c1">
+    <name>Python</name>
+    <price>3500.00</price>
+    <enrollment>400</enrollment>
+    <category>Backend</category>
+  </course>
+
+  <course id="c2">
+    <name>HTML</name>
+    <price>3500.00</price>
+    <enrollment>400</enrollment>
+    <category>Frontend</category>
+    </course>
+
+  <course id="c3">
+    <name>Java</name>
+    <price>3500.00</price>
+    <enrollment>500</enrollment>
+    <category>Backend</category>
+  </course>
+
+</courses>
