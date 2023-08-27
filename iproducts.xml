@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="iproducts.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<products>
+    <product pid="101">
+    <id>1</id>
+    <name>Iphone</name>
+    <price>800.10</price>
+    <description>this is a IPhone</description>
+    </product>
+    <product pid="102">
+        <id>2</id>
+        <name>MacBook Air</name>
+        <price>999.00</price>
+        <description>This is a MacBook Air 2020</description>
+    </product>
+    <product pid="103">
+        <id>3</id>
+        <name>IPad</name>
+        <price>700.25</price>
+        <description>this is a IPad</description>
+    </product>
+    <product pid="104">
+        <id>4</id>
+        <name>Iwatch</name>
+        <price>900.50</price>
+        <description>this is is Apple IOS watch</description>
+    </product>
+</products>
