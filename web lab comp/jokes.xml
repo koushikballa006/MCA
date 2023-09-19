@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="stylesheet.xsl" type="text/xsl"?>
+<jokes>
+  <joke>
+    <category>Programming</category>
+    <text>Why do programmers always mix up Christmas and Halloween? Because Oct 31 == Dec 25.</text>
+  </joke>
+  <joke>
+    <category>Animal Crossing</category>
+    <text>Parallel lines have so much in common. It's a shame they'll never meet.</text>
+  </joke>
+</jokes>
