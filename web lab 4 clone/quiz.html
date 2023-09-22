@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        #logo
+        {
+            margin: 0;
+            padding: 0;
+            height: 60px;
+            width: 60px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .quiz-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    color: #fff;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+#logo
+{
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    width: 60px;
+}
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a href="Lingoquest.html"><img src="LINGO-removebg-preview.png" id="logo" alt="logo"></a> 
+              <a class="navbar-brand" href="Lingoquest.html">Lingoquest</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Lingoquest.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="quiz.html">Quiz</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Languages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="c.html">C</a></li>
+                      <li><a class="dropdown-item" href="">C++</a></li>
+                      <li><a class="dropdown-item" href="#">Java</a></li>
+                      <li><a class="dropdown-item" href="python.html">python</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">solve coding!!</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="about.html" class="nav-link active" aria-disabled="true">About us</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="quiz-container1">
+        <h2>Question 1: What does the term "Full Stack Development" refer to?</h2>
+        <ul>
+            <li>
+                <input type="radio" id="choice1" name="answer" value="choice1">
+                <label for="choice1">Development that involves stack data structures</label>
+            </li>
+            <li>
+                <input type="radio" id="choice2" name="answer" value="choice2">
+                <label for="choice2">Development that involves front-end and back-end programming</label>
+            </li>
+            <li>
+                <input type="radio" id="choice3" name="answer" value="choice3">
+                <label for="choice3">Development that involves only backend programming</label>
+            </li>
+            <li>
+                <input type="radio" id="choice3" name="answer" value="choice3">
+                <label for="choice3">None of the above</label>
+            </li>
+        </ul>
+        </div>
+        <div class="quiz-container2"><h2>Question 2: What does the term "Full Stack Development" refer to?</h2>
+        <ul>
+            <li>
+                <input type="radio" id="choice1" name="answer" value="choice1">
+                <label for="choice1">HTML</label>
+            </li>
+            <li>
+                <input type="radio" id="choice2" name="answer" value="choice2">
+                <label for="choice2">CSS</label>
+            </li>
+            <li>
+                <input type="radio" id="choice3" name="answer" value="choice3">
+                <label for="choice3">JavaScript</label>
+            </li>
+            <li>
+                <input type="radio" id="choice3" name="answer" value="choice3">
+                <label for="choice3">SQL</label>
+            </li>
+        </ul>
+    </div>
+    <div class="quiz-container3">
+        <h2>Question 3: The purpose of the Front-end framework in Full stack development is ____.</h2>
+        <ul>
+            <li>
+                <input type="radio" id="choice1" name="answer" value="choice1">
+                <label for="choice1">To provide the client-side interface</label>
+            </li>
+            <li>
+                <input type="radio" id="choice2" name="answer" value="choice2">
+                <label for="choice2">To manage database</label>
+            </li>
+            <li>
+                <input type="radio" id="choice3" name="answer" value="choice3">
+                <label for="choice3">To reduce the server load</label>
+            </li>
+            <li>
+                <input type="radio" id="choice3" name="answer" value="choice3">
+                <label for="choice3">To send http requests</label>
+            </li>
+        </ul>
+        <button id="next-button">Submit</button>
+        </div>
+ <script>
+        const nextButton = document.getElementById('next-button');
+
+        nextButton.addEventListener('click', () => {
+            
+        });
+    </script>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Contact Us</h4>
+                    <p>8008475918</p>
+                    <p>lingoquest@gmail.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Important Links</h4>
+                    <ul>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/services">Services</a></li>
+                        <li><a href="/terms">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Follow Us</h4>
+                    <h6>lingoquest_insta</h6>
+                    <h6>lingoquest_fb</h6>
+                    <h6>lingoquest_twitter</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
